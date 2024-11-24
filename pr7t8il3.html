@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectos Demonstration </title>
+    <link rel="stylesheet" href="mystyle.css">
+
+    <body>
+ <h1>CSS selectors Demonstraiont</h1>
+
+ <h2>Element selector </h2>
+ <p>This paragraph is selected by the element selector(all<code>&lt;p&gt</code> element)</p>
+
+ <h2>Class selector</h2>
+ <p class="highlight">this is selected by class selector</p>
+
+<h2>ID selector</h2>
+<p id="unique">this is selected by id selector</p>
+
+<h2>Descendant selector</h2>
+<div>
+    <p>this is inside the  <code>&lt;div&gt</code> and is selected by Descendant selector</p>
+</div>
+<p>this is outside the div and not affected by the Descendant selector</p>
+
+<h2>Child selector </h2>
+<div>
+    <p>this is directly inside <code>&lt;p&gt</code> and is selected by child selector</p>
+    <div>
+        <p>this is inside <code>&lt;p&gt</code> but not affected by child selector</p>
+    </div>
+</div>
+ 
+<h2>Attribute selector </h2>
+<a href="https.example.com" target="_blank">This is selected by Attribute SELECTOR</a>
+<a href="https.example.com">this not selector by Attribute selector</a>
+
+<h2>Pseudo-class selector</h2>
+<p>hover over this para to see the Pseudo-class selector</p>
+
+<h2>Pseudo-element selector</h2>
+<p>sffect by styling the first line</p>
+
+<h2>Grouping selector</h2>
+<h3>this heading is selected by grounding(h1,h2,h3)</h3>
+
+    
+</body>
+</html>

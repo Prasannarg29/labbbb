@@ -1,0 +1,33 @@
+
+p{
+    color: purple;
+    font-size: 20px;
+}
+.highlight{
+    background-color: yellow;
+}
+#unique{
+    color:blue;
+    font-style: italic;
+}
+div p{
+    color:aqua;
+    font-size: 15px;
+}
+div>p{
+    color:red;
+    font-weight: bold;
+}
+a[target="_blank"]{
+    color: blue;
+    text-decoration: underline;
+}
+p:hover{
+    color: brown;
+}
+p::first-line{
+    font-weight:bold ;
+}
+h1,h2,h3{
+    color: darkblue;
+}
