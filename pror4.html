@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color: #f0f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1{
+            color: black;
+            text-align: center;
+        }
+        table{
+            background-color: whitesmoke;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 rgb(0,0,0,0.1);
+            margin: 0 auto;
+            width: 100%;
+            max-width: 600px;
+        }
+        td{
+            padding: 20px;
+
+        }
+        input[ type="text"], input[ type="email"], input[ type="password"],select,textarea{
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+            box-sizing: 16px;
+        }
+        input[type="submit"] {
+ background-color: #4CAF50;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ font-size: 18px;
+ }
+ input[type="submit"]:hover {
+ background-color: #45a049;
+ }
+        label{
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td><label for="fullname">Fullname</label></td>
+                <td><input type="text" id="fullname" name="fullname" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><select name="gender" id="gender">
+                        <option value="">Select</option>
+                        <option value="male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="other">Other</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="dob">date of birth</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><textarea id="Address" name="Address"></textarea></td>
+             </tr>
+             <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Register">
+                </td>
+             </tr>
+        </table>
+     </form>
+</body>
+</html>
